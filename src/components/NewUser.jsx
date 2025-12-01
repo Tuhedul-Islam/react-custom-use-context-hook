@@ -4,6 +4,7 @@ import { useUserContext } from '../hook/useUserContext';
 const NewUser = () => {
 
     const [username, setUsername] = useState('');
+    // Get users and setUsers from context Hook
     const {users, setUsers} = useUserContext();
 
     const handleChange = (e) => {
